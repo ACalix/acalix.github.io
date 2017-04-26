@@ -41,7 +41,7 @@ nav {
 
 nav a {
 	width: 273.2px;
-	height: inherit;
+	height: auto;
 	border-right: solid 2px #790000;
 	cursor: pointer;
 }
