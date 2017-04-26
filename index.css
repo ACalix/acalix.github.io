@@ -1,0 +1,270 @@
+body {
+	color: #393730;
+	font-family: "Century Gothic", Century Gothic, Apple Gothic, sans-serif;
+}
+
+main {
+	width: 87%;
+	margin: auto;
+	max-width: 1366px;
+	max-height: 698px;
+}
+
+#header-img img {
+	height: auto;
+	width: 100%;
+}
+
+#nav-pop img {
+	height: initial;
+	width: initial;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-start;
+	text-align: center;
+	width: 100%;
+	height: 71px;
+	margin: auto;
+	border-bottom: solid 2px #F5F5F5;
+	border-left: solid 2px #F5F5F5;
+	overflow-x: hidden;
+}
+
+nav a {
+	width: 273.2px;
+	height: inherit;
+	border-right: solid 2px #790000;
+	cursor: pointer;
+}
+
+.nav-button:hover {
+	border-bottom: solid 2px #d52b2b;
+}
+
+nav span {
+	line-height: 71px;
+	font-weight: normal;
+	font-size: 24px;
+}
+
+#nav-pop {
+	height: 601px;
+	width: 673px;
+	background-color: rgba(255, 255, 255, 0.9);
+	border: solid 2px #d52b2b;
+	border-radius: 10px;
+	top: 30px;
+	left: 48%;
+	position: absolute;
+	z-index: 1000;
+}
+
+#nav-pop-content {
+	margin: 25px;
+	opacity: 2;	
+}
+
+#nav-pop-content h1 {
+	color: #d52b2b;
+	font-size: 40;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+#nav-pop-content img {
+	margin: 0;
+	display: inline-block;
+}
+
+#nav-pop-content p {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+#active-nav {
+	background-color: #d52b2b;
+	border: solid 1px #d52b2b;
+	color: #ffffff;
+}
+
+.vertical-body {
+	width: 246px;
+	display: inline-block;
+	margin-left: 25px;
+	margin-right: 25px;
+	vertical-align: top;
+}
+
+.vertical-body p {
+	margin-top: 0px;
+}
+
+#contact-us h2 {
+	font-size: 18px;
+	font-color: #393730;
+	line-height: 18px;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#contact-us input,
+#contact-us textarea {
+	border: solid 1px #7f7b72;
+	width: 599px;
+	height: 39px;
+	border-radius: 6px;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+#contact-us input[type="text"],
+#contact-us textarea[type="text"] {
+    font-size: 16px;
+    padding-left: 15px;
+    font-weight: normal;
+}
+
+#contact-us input:focus,
+#contact-us textarea:focus {
+	outline: none !important;
+	border: solid 1px #d94040;
+}
+
+#contact-us textarea {
+	height: 171px;
+	resize: none;
+}
+
+#contact-us textarea[type="text"] {
+	padding: 15px;
+}
+
+#button-container {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#button-container button {
+	width: 200px;
+	height: 47px;
+	border: solid 1px #7f7b72;
+	border-radius: 25px;
+	font-size: 18px;
+	line-height: 18px;
+	color: #ffffff;
+	margin-left: 10px;
+	margin-right: 10px
+}
+
+#button-container button:hover,
+#button-container button:active {
+	transform: scale(1.05);
+}
+
+#drop-down-container {
+	height: 182px;
+	position: absolute;
+	z-index: 1000;
+}
+
+#styled-select {
+	width: 200px;
+	height: 47px;
+	border: solid 1px #7f7b72;
+	border-radius: 25px;
+	background: url(/img/chevron.png) no-repeat 90%;
+	position: absolute;
+}
+
+.selected {
+	border: solid 1px #950000 !important;
+}
+
+#styled-select:hover {
+	border: solid 1px #950000;
+	cursor: pointer;
+}
+
+#drop-down-content {
+	height: 182px;
+	width: 200px;
+	border: solid 1px #950000;
+	border-radius: 25px;
+	overflow: hidden;
+	background: rgba(255, 255, 255, 0.9);
+}
+
+#options-container {
+	margin-top: 47px;
+	height: 135px;
+	width: 200px;
+	overflow: scroll;
+}
+
+.option,
+#styled-select a {
+	height: 38px;
+	width: 200px;
+	display: block;
+	text-align: center;
+	user-select: none;
+}
+
+.option:hover {
+	background-color: rgba(213, 43, 43, 0.6);
+	cursor: pointer;
+}
+
+.option span,
+#styled-select span {
+	font-size: 18px;	
+	line-height: 38px;
+}
+
+#option-selected {
+	padding-top: 5px;
+}
+
+#set-option {
+	background-color: rgba(213, 43, 43, 0.9);
+}
+
+#event-container {
+	height: 410px;
+	width: 625px;
+	position: absolute;
+	margin-top: 50px;
+	overflow: scroll;
+}
+
+#event-container h2 {
+	padding: 2px;
+	font-size: 18px;
+	color: #d52b2b;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	font-weight: normal;
+}
+
+#event-container h3 {
+	padding: 2px;
+	color: #393730;
+	font-size: 14px;
+	margin: 0px;
+	font-weight: normal;
+}
+
+#event-container span {
+	padding: 0px;
+	color: #7d7b73;
+	font-style: italic;
+	font-size: 12px;
+}
