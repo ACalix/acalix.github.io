@@ -36,6 +36,7 @@ nav {
 	border-bottom: solid 2px #F5F5F5;
 	border-left: solid 2px #F5F5F5;
 	overflow-x: hidden;
+	overflow-y: visible;
 }
 
 nav a {
@@ -206,7 +207,8 @@ nav span {
 	margin-top: 47px;
 	height: 135px;
 	width: 200px;
-	overflow: scroll;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 .option,
@@ -242,7 +244,8 @@ nav span {
 	width: 625px;
 	position: absolute;
 	margin-top: 50px;
-	overflow: scroll;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 #event-container h2 {
