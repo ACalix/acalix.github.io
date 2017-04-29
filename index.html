@@ -1,22 +1,20 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<title>Trial by Mock Up Fire | Learning</title>
+		<title>Water Ski Team | Chico State</title>
+		<meta charset="utf-8" />
 		<link rel="stylesheet" href="index.css">
 	</head>
-	<body>
+	<body ng-app="SkiTeam">
 		<main>
 			<div id="header-img">
 				<img src="/img/background_image.png">
 			</div>
-			<nav>
-				<a class="nav-button" onclick=home()><span>Home</span></a>
-				<a class="nav-button" onclick=aboutUs()><span>About Us</span></a>
-				<a class="nav-button" onclick=eventSchedule()><span>Event Schedule</span></a>
-				<a class="nav-button" onclick=merch()><span>Merchandise</span></a>
-				<a class="nav-button" onclick=contactUs()><span>Contact Us</span></a>
-			</nav>
+			<!-- Creates the navigation bar using a custom directive -->
+			<main-nav></main-nav>
 		</main>
-		<script src="index.js"></script>
+		<script src="/lib/angular.min.js"></script>
+		<script src="app.js"></script>
+		<script src="/modules/navbar.js"></script>
 	</body>
 </html>

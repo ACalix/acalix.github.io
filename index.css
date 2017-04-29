@@ -90,7 +90,7 @@ nav span {
 	line-height: 18px;
 }
 
-#active-nav {
+.active {
 	background-color: #d52b2b;
 	border: solid 1px #d52b2b;
 	color: #ffffff;
