@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body {
 	color: #393730;
-	font-family: "Century Gothic", Century Gothic, Apple Gothic, sans-serif;
+	font-family: Open Sans, "Century Gothic", Century Gothic, Apple Gothic, sans-serif;
 }
 
 main {
