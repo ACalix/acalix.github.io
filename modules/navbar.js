@@ -1,8 +1,8 @@
 "use strict";
 
 (function(){
-	var app = angular.module("NavBar", []);
-		app.directive("mainNav", function(){
+	angular.module("NavBar", [])
+		.directive("mainNav", function(){
 			return {
 				restrict: "E",
 				templateUrl: "/templates/navigation.html",
@@ -24,5 +24,5 @@
 				},
 				controllerAs: "item"
 			};
-	});
+		});
 })();
