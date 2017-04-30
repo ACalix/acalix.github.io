@@ -5,7 +5,7 @@
 </div>
 <div id="drop-down-content" ng-show="dropDownCtrl.open">
 	<div id="options-container">
-		<a class="option" ng-class="{ active:eventContent.isActiveYear(option) }"ng-repeat="option in eventContent.sendYears()" ng-click="eventContent.setActiveYear(option)">
+		<a class="option" ng-class="{ active:eventContent.isActiveYear(option) }"ng-repeat="option in eventContent.sendYears()" ng-click="eventContent.setActiveYear(option); dropDownCtrl.toggleDropDown()">
 			<span> {{ option }} </span>
 		</a>
 	</div>
