@@ -1,0 +1,13 @@
+<div id="nav-pop">
+	<div id="nav-pop-content">
+		<h1>Event Schedule</h1>
+		<div drop-down id="drop-down-container"></div>
+		<div id="event-container">
+			<div ng-repeat="event in eventContent.eventList.year[eventContent.selectedYear]">
+				<h2>{{ event.date }} </h2>
+				<h3>{{ event.name }} </h3>
+				<span>{{ event.location }}</span>
+			</div>
+		</div>
+	</div>
+</div>

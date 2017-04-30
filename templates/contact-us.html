@@ -1,0 +1,20 @@
+<div id="nav-pop">
+	<div id="nav-pop-content">
+		<h1>Contact Us</h1>
+		<p>
+			Interested in joining the team or have any specific questions? If so, please contact us at csucwaterski@gmail.com or fill out the form below.
+		</p>
+		<form id="contact-us" novalidate>
+			<h2>Your Email Address:</h2>
+			<input type="email" placeholder="JaneDoe@email.com" ng-model="contactUsContent.email">
+			<h2>Subject:</h2>
+			<input type="text" placeholder="I want to join!" ng-model="contactUsContent.subject">
+			<h2>Message:</h2>
+			<textarea type="text" placeholder="Send us your message..."ng-model="contactUsContent.message"></textarea>
+		</form>
+		<div id="button-container">
+			<button style="background-color: rgba(140, 132, 122, 0.9" ng-click="contactUsContent.cancel()")>Cancel</button>
+			<button style="background-color: rgba(213, 43, 43, 0.9); border-color: #950000">Submit</button>
+		</div>
+	</div>
+</div>

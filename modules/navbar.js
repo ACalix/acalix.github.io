@@ -11,7 +11,7 @@
 					this.aboutUs = "About Us";
 					this.eventSchedule = "Event Schedule";
 					this.merchandise = "Merchandise";
-					this.contactUs = "ContactUs";
+					this.contactUs = "Contact Us";
 					this.tab = 1;
 
 					this.isSet = function(checkTab){
