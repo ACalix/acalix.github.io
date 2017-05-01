@@ -2,10 +2,10 @@
 
 (function(){
 	angular.module("AboutUs", [])
-			.directive("aboutUs", function(){
+		.directive("aboutUs", function(){
 			return {
 				restrict: "E",
-				templateUrl: "/templates/about-us.html",
+				templateUrl: "/javascript/templates/about-us.html",
 				controller: function(){
 					this.text = {
 						body:

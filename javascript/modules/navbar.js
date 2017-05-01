@@ -5,7 +5,7 @@
 		.directive("mainNav", function(){
 			return {
 				restrict: "E",
-				templateUrl: "/templates/navigation.html",
+				templateUrl: "/javascript/templates/navigation.html",
 				controller: function(){
 					this.home = "Home";
 					this.aboutUs = "About Us";

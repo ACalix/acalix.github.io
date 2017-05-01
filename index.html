@@ -6,23 +6,16 @@
 		<link rel="stylesheet" href="index.css">
 	</head>
 	<body ng-app="SkiTeam">
-		<main>
-			<div id="header-img">
-				<img src="/img/background_image.png">
-				<about-us ng-show="item.isSet(2)"></about-us>
-				<event-schedule ng-show="item.isSet(3)"></event-schedule>
-				<merchandise ng-show="item.isSet(4)"></merchandise>
-				<contact-us ng-show="item.isSet(5)"></contact-us>
-			</div>
-			<!-- Creates the navigation bar using a custom directive -->
-			<main-nav></main-nav>
-		</main>
+		<main ng-view class="{{ pageClass }}"></main>
 		<script src="/lib/angular.min.js"></script>
-		<script src="app.js"></script>
-		<script src="/modules/navbar.js"></script>
-		<script src="/modules/aboutus.js"></script>
-		<script src="/modules/merchandise.js"></script>
-		<script src="/modules/contactus.js"></script>
-		<script src="/modules/eventschedule.js"></script>
+		<script src="/lib/angular-route.min.js"></script>
+		<script src="/lib/angular-animate.min.js"></script>
+		<script src="/javascript/app.js"></script>
+		<script src="/javascript/modules/navbar.js"></script>
+		<script src="/javascript/modules/aboutus.js"></script>
+		<script src="/javascript/modules/merchandise.js"></script>
+		<script src="/javascript/modules/contactus.js"></script>
+		<script src="/javascript/modules/eventschedule.js"></script>
+		<script src="/javascript/modules/learnmore.js"></script>
 	</body>
 </html>

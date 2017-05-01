@@ -5,7 +5,7 @@
 		.directive("eventSchedule", function(){
 			return {
 				restrict: "E",
-				templateUrl: "/templates/event-schedule.html",
+				templateUrl: "/javascript/templates/event-schedule.html",
 				controller: function(){
 					this.selectedYear = 2017;
 					this.eventList = {
@@ -85,7 +85,7 @@
 		.directive("dropDown", function(){
 			return {
 				restrict: "A",
-				templateUrl: "/templates/drop-down.html",
+				templateUrl: "/javascript/templates/drop-down.html",
 				controller: function(){
 					this.yearSelected = 2017;
 					this.open = false;

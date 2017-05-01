@@ -5,7 +5,7 @@
 		.directive("merchandise", function(){
 			return {
 				restrict: "E",
-				templateUrl: "/templates/merchandise.html",
+				templateUrl: "/javascript/templates/merchandise.html",
 				controller: function(){
 					this.text = {
 						body:
